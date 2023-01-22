@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    right: 0;
+    align-items: center;
+}
+  
+img {
+    margin: auto 0;
+    height: 700px;
+    width: 180px;
+    opacity: .5;
+}
+  
+nav ul {
+    font-weight: bold;
+    font-size: 24px;
+    width: 8rem;
+    margin-right: 25px;
+    opacity: 1;
+    position: fixed;
+    top: 10px;
+    right: 0;
+    z-index: 1;
+}
+  
+nav li {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+  
+nav li:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: gray;
+}
+
+#intro h2 {
+    font-size: 22px;
+}
+
+#intro h4 {
+    font-size: 16px;
+}
+
+section:not(:first-child) {
+    padding-top: 1%;
+}
+
+h1 {
+    transform: skew(-30deg);
+    padding-left: 15px;
+    padding-top: 4px;
+}
+
+.bg1 {
+    width: 1250px;
+    height: 35px;
+    transform: skew(30deg);
+    padding-top: .002rem;
+    padding-left: .5rem;
+    background-image: linear-gradient(to right, rgb(186, 194, 209), rgb(240, 242, 245));
+}
+
+.bg2 {
+    width: 1250px;
+    height: 35px;
+    transform: skew(0deg);
+    background: rgb(149, 176, 224);
+    background-image: linear-gradient(to right, rgb(112, 150, 216), rgb(209, 222, 248));
+    text-align: center;
+}
+
+.contact {
+    display: inline-block;
+    width: 35%;
+    height: 220px;
+    vertical-align: middle;
+    padding-top: 1%;
+    padding-left: 10%;
+}
+
+.socials {
+    display: inline-block;
+    width: 35%;
+    height: 220px;
+    vertical-align: middle;
+    padding-top: 1%;
+    padding-left: 10%;
+}
+
+.socials a, .contact a, li a {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.socials a:hover, .contact a:hover, li a:hover {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+
+.socials a:active, .contact a:active, li a:active {
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+}
+
+#mission {
+    width: 1240px;
+    padding-left: 2%;
+}
+
+#tech_skill {
+    height: 240px;
+    width: 70%;
+    list-style: none;
+}
+
+#tech_skill ul {
+    margin-top: 3%;
+    display: inline-block;
+}
+
+#soft_skill {
+    height: 165px;
+    width: 70%;
+}
+
+#soft_skill ul {
+    margin-top: 3%;
+}
+
+#achieve {
+    height: 190px;
+    width: 80%;
+}
+
+#achieve ul {
+    margin-top: 3%;
+}
+
+#exp {
+    height: 530px;
+    width: 80%;
+}
+
+#all_work {
+    margin-top: 2.5%;
+}
+
+#exp h2 {
+    margin-top: 0;
+    margin-left: 2%;
+    margin-bottom: 0;
+}
+
+.workplace {
+    margin-bottom: 0;
+}
+
+.date {
+    margin-right: 18%;
+    float: right;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.work_title {
+    font-size: 18px;
+    padding: 0px;
+}
+
+.work_section {
+    margin-bottom: 3%;
+}
+
+.work_section li {
+    width: 90%;
+}
+
+#edu {
+    height: 120px;
+}
+
+#edu h4 {
+    margin-top: 2.5%;
+    margin-left: 1%;
+    font-size: 18px;
+}
+
+#cert ul {
+    margin-top: 2.5%;
+}
