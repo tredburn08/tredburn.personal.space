@@ -1,199 +1,138 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+  
+a {
+  color: blue;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: gray;
+}
+
+a:visited {
+  color: blue;
 }
 
 nav {
-    position: fixed;
-    right: 0;
-    align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 20px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  height: 100%;
+  width: 180px;
+  background-image: url("../media/map.jpg");
 }
-  
-img {
-    margin: auto 0;
-    height: 700px;
-    width: 180px;
-    opacity: .5;
-}
-  
+
 nav ul {
-    font-weight: bold;
-    font-size: 24px;
-    width: 8rem;
-    margin-right: 25px;
-    opacity: 1;
-    position: fixed;
-    top: 10px;
-    right: 0;
-    z-index: 1;
+  height: 100%;
+  list-style-type: none;
 }
-  
+
 nav li {
-    text-decoration: underline;
-    cursor: pointer;
-    margin-bottom: 30px;
-}
-  
-nav li:hover {
-    text-decoration: none;
-    cursor: pointer;
-    color: gray;
+  margin-bottom: 40px;
 }
 
-#intro h2 {
-    font-size: 22px;
-}
-
-#intro h4 {
-    font-size: 16px;
-}
-
-section:not(:first-child) {
-    padding-top: 1%;
-}
-
-h1 {
-    transform: skew(-30deg);
-    padding-left: 15px;
-    padding-top: 4px;
+#main {
+  padding-right: 210px;
+  margin-left: 10px;
+  width: 100%;
 }
 
 .bg1 {
-    width: 1250px;
-    height: 35px;
-    transform: skew(30deg);
-    padding-top: .002rem;
-    padding-left: .5rem;
-    background-image: linear-gradient(to right, rgb(186, 194, 209), rgb(240, 242, 245));
+  width: 99%;
+  height: 35px;
+  transform: skew(30deg);
+  padding-top: 0.002rem;
+  padding-left: 0.5rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(186, 194, 209),
+    rgb(240, 242, 245)
+  );
 }
 
 .bg2 {
-    width: 1250px;
-    height: 35px;
-    transform: skew(0deg);
-    background: rgb(149, 176, 224);
-    background-image: linear-gradient(to right, rgb(112, 150, 216), rgb(209, 222, 248));
-    text-align: center;
+  width: 100.5%;
+  margin-top: 0.5%;
+  transform: skew(0deg);
+  background: rgb(149, 176, 224);
+  background-image: linear-gradient(
+    to right,
+    rgb(112, 150, 216),
+    rgb(209, 222, 248)
+  );
+  text-align: center;
+}
+
+h1 {
+  transform: skew(-30deg);
+  padding-left: 15px;
+  padding-top: 4px;
+}
+
+article {
+  margin: 2% 5%;
+}
+
+.info_wrapper {
+  display: table;
+  width: 100%;
+  margin-left: 23%;
+  padding-bottom: 15px;
 }
 
 .contact {
-    display: inline-block;
-    width: 35%;
-    height: 220px;
-    vertical-align: middle;
-    padding-top: 1%;
-    padding-left: 10%;
+  display: table-cell;
 }
 
 .socials {
-    display: inline-block;
-    width: 35%;
-    height: 220px;
-    vertical-align: middle;
-    padding-top: 1%;
-    padding-left: 10%;
-}
-
-.socials a, .contact a, li a {
-    text-decoration: underline;
-    color: blue;
-    cursor: pointer;
-}
-
-.socials a:hover, .contact a:hover, li a:hover {
-    text-decoration: none;
-    color: blue;
-    cursor: pointer;
-}
-
-.socials a:active, .contact a:active, li a:active {
-    text-decoration: none;
-    color: gray;
-    cursor: pointer;
-}
-
-#mission {
-    width: 1240px;
-    padding-left: 2%;
-}
-
-#tech_skill {
-    height: 240px;
-    width: 70%;
-    list-style: none;
-}
-
-#tech_skill ul {
-    margin-top: 3%;
-    display: inline-block;
-}
-
-#soft_skill {
-    height: 165px;
-    width: 70%;
-}
-
-#soft_skill ul {
-    margin-top: 3%;
-}
-
-#achieve {
-    height: 190px;
-    width: 80%;
-}
-
-#achieve ul {
-    margin-top: 3%;
-}
-
-#exp {
-    height: 530px;
-    width: 80%;
-}
-
-#all_work {
-    margin-top: 2.5%;
-}
-
-#exp h2 {
-    margin-top: 0;
-    margin-left: 2%;
-    margin-bottom: 0;
+  display: table-cell;
 }
 
 .workplace {
-    margin-bottom: 0;
+  font-size: 24px;
 }
 
 .date {
-    margin-right: 18%;
-    float: right;
-    font-size: 18px;
-    margin-bottom: 0;
+  font-size: 18px;
 }
 
 .work_title {
-    font-size: 18px;
-    padding: 0px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
-.work_section {
-    margin-bottom: 3%;
+.work_heading h2 {
+  display: table;
+  width: 100%;
 }
 
-.work_section li {
-    width: 90%;
+.date {
+  display: table-cell;
+  text-align: right;
 }
 
-#edu {
-    height: 120px;
+.work_section:not(:first-child) {
+  margin-top: 30px;
 }
 
-#edu h4 {
-    margin-top: 2.5%;
-    margin-left: 1%;
-    font-size: 18px;
+.column {
+  float: left;
+  width: 43%;
 }
 
-#cert ul {
-    margin-top: 2.5%;
+.row {
+  display: table;
+  width: 100%;
+  margin-left: 23%;
 }
