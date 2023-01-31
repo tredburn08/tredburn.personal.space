@@ -1,19 +1,103 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-    width: 100%;
-    padding-top: 20px;
-    text-align: center;
+body {
+  width: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: azure;
+  padding-bottom: 1%;
 }
 
-div {
-    width: 100%;
-    text-align: center;
+a {
+  color: blue;
 }
 
-div image {
-    max-height: 450;
-    max-width: 1024;
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: gray;
+}
+
+a:visited {
+  color: blue;
+}
+
+nav {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 20px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  height: 100%;
+  width: 8%;
+  background-image: url("../media/map.jpg");
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  margin-bottom: 40px;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  align-items: center;
+}
+
+h1.banner {
+  display: inline-block;
+  padding-top: 2%;
+  padding-right: 5%;
+  color: black;
+  font-size: 100px;
+  width: 100%;
+  height: 200px;
+  text-shadow: white 8px 2px 30px;
+  -webkit-text-stroke: 2px white;
+  text-align: center;
+  background-image: url(./media/banner_code2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.intro {
+  width: 90%;
+  margin-top: 15px;
+  font-size: 34px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+section {
+  padding-left: 1%;
+}
+
+h2 {
+  padding-top: 3%;
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+.description {
+  width: 90%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 20px;
+}
+
+.caption {
+  font-size: 15px;
+}
+
+video {
+  width: 90%;
 }
