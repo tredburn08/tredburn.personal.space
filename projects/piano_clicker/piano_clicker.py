@@ -8,7 +8,7 @@ from pyautogui import pixel
 def mouse_click(coordinate):
     """Using the win32 module for clicks as it offers a significant speed advantage over the pyautogui clicker. Also
     using a small sleep window as clicks sometimes don't register without it."""
-    offset = 20
+    offset = 10
 
     coordinate = [coordinate[0], coordinate[1] + offset]
     win32api.SetCursorPos(coordinate)
